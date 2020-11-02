@@ -1,4 +1,4 @@
-# Digit-Generator-Basic-GAN
+# Digits-Generator-Basic-GAN
 Created a very basic generative adversarial network (GAN). Specifically, trained a GAN that can generate hand-written images of digits (0-9) using world famous MNIST Dataset. I used Pytorch to train the model, if you are not familiar with Pytorch, you can take help from official documentation of pytorch on their website.
 
 ## Dataset
@@ -17,10 +17,10 @@ It’s also often the case that the discriminator will outperform the generator,
 
 You should roughly expect to see this progression. On a GPU, this should take about 15 seconds per 500 steps, on average, while on CPU it will take roughly 1.5 minutes: 
 
-![Screenshot2](training image.png)
+![Screenshot2](https://github.com/msalmankhaliq/Digit-Generator-Basic-GAN/blob/main/training%20image.png)
 
 ## Results
 
 After training, the results looks like this. Right one is the original image and the left one is the generated image. Not quite great right? Yeah, it is because it is a very basic GAN and I didn't appply any pre-processing and training methods on that. But overall it worked quite well and generated digits are readable to human eyes. 
 
-![Screenshot3](download (2).png) ![Screenshot](download (1).png)
+![Screenshot3](https://github.com/msalmankhaliq/Digit-Generator-Basic-GAN/blob/main/download%20(2).png) ![Screenshot4](https://github.com/msalmankhaliq/Digit-Generator-Basic-GAN/blob/main/download%20(1).png)
